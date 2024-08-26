@@ -10,12 +10,11 @@
 }
 
 :root {
-  --color-muted: #c0c0c0;
-  
+  /* Cores */
   --transition: all 400ms ease;
   --slow-transition: all 880ms ease;
 
-  --mont: "Montserrat", sans-serif;
+  /* Fontes */
 }
 .flex-row {
   display: flex;
@@ -26,33 +25,6 @@
 }.align-container-center {
   justify-content: center;
   align-items: center;
-}
-.mont-300 {
-  font-family: var(--mont);
-  font-weight: 300;
-}
-.mont-400 {
-  font-family: var(--mont);
-  font-weight: 400;
-}
-.mont-500 {
-  font-family: var(--mont);
-  font-weight: 500;
-}
-.mont-600 {
-  font-family: var(--mont);
-  font-weight: 600;
-}
-.mont-700 {
-  font-family: var(--mont);
-  font-weight: 700;
-}.mont-800 {
-  font-family: var(--mont);
-  font-weight: 800;
-}
-.mont-900 {
-  font-family: var(--mont);
-  font-weight: 900;
 }.pointer {
   cursor: pointer;
 }.uppercase {
