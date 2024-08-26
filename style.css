@@ -11,6 +11,9 @@
 
 :root {
   /* Cores */
+  --white: #FFF;
+  --black: #000;
+  
   --transition: all 400ms ease;
   --slow-transition: all 880ms ease;
 
@@ -39,8 +42,6 @@
   color: var(--color-1);
 }.color-2 {
   color: var(--color-2);
-}.header-padding {
-  padding: var(--header-padding);
 }.btn-transparent {
   background-color: transparent;
   border: solid 1px var(--color-white);
@@ -87,6 +88,8 @@
   font-size: 5rem;
 }.size-7 {
   font-size: 7rem;
+}.center {
+  text-align: center;
 }
 div:focus, section:focus, aside:focus, article:focus, a:focus, button:focus, li:focus {
   outline: none;
